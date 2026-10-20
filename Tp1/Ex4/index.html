@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4 - Somme des temps</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h2>Somme de trois mesures de temps</h2>
+
+    <form id="formulaire">
+
+        <p>Entrer le premier temps :</p>
+        Heure(s) <input type="number" id="h1">
+        Minute(s) <input type="number" id="m1">
+        Seconde(s) <input type="number" id="s1">
+
+        <p>Entrer le deuxième temps :</p>
+        Heure(s) <input type="number" id="h2">
+        Minute(s) <input type="number" id="m2">
+        Seconde(s) <input type="number" id="s2">
+
+        <p>Entrer le troisième temps :</p>
+        Heure(s) <input type="number" id="h3">
+        Minute(s) <input type="number" id="m3">
+        Seconde(s) <input type="number" id="s3">
+
+        <p>Total des trois temps :</p>
+        Jour(s) <input type="number" id="jours" readonly>
+        Heure(s) <input type="number" id="heures" readonly>
+        Minute(s) <input type="number" id="minutes" readonly>
+        Seconde(s) <input type="number" id="secondes" readonly>
+
+        <p>
+            <button type="button" onclick="calculerSomme()">Somme</button>
+            <button type="reset">Effacer</button>
+        </p>
+
+    </form>
+
+</body>
+</html>

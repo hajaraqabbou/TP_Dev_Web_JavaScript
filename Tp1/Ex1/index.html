@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>QCM - Développement Web</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>QCM - Développement Web</h1>
+    <p>Répondez aux questions suivantes.</p>
+
+    <form id="qcm">
+
+        <h3>Question 1 : Que signifie HTML ?</h3>
+
+        <label>
+            <input type="radio" name="q1" value="a">
+            HyperText Markup Language
+        </label><br>
+
+        <label>
+            <input type="radio" name="q1" value="b">
+            HighText Machine Language
+        </label><br>
+
+        <label>
+            <input type="radio" name="q1" value="c">
+            HyperTool Multi Language
+        </label>
+
+        <h3>Question 2 : Quel langage permet de styliser une page web ?</h3>
+
+        <label>
+            <input type="radio" name="q2" value="a">
+            HTML
+        </label><br>
+
+        <label>
+            <input type="radio" name="q2" value="b">
+            CSS
+        </label><br>
+
+        <label>
+            <input type="radio" name="q2" value="c">
+            SQL
+        </label>
+
+        <h3>Question 3 : Quels sont des types de données JavaScript ?</h3>
+
+        <label>
+            <input type="checkbox" name="q3" value="a">
+            String
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q3" value="b">
+            Boolean
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q3" value="c">
+            HTML
+        </label>
+
+        <h3>Question 4 : Quels événements existent en JavaScript ?</h3>
+
+        <label>
+            <input type="checkbox" name="q4" value="a">
+            onclick
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q4" value="b">
+            onmouseover
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q4" value="c">
+            background-color
+        </label>
+
+        <h3>Question 5 : Quelles méthodes permettent de sélectionner des éléments HTML ?</h3>
+
+        <label>
+            <input type="checkbox" name="q5" value="a">
+            getElementById()
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q5" value="b">
+            querySelector()
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="q5" value="c">
+            alert()
+        </label>
+
+        <hr>
+
+        <button type="reset">Initialiser</button>
+        <button type="button" onclick="afficherCorrige()">
+            Afficher le corrigé
+        </button>
+        <button type="button" onclick="afficherResultat()">
+            Afficher le résultat
+        </button>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 550px;
+    margin: 40px auto;
+}
+
+#recherche {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#listeProduits {
+    list-style: none;
+    padding: 0;
+}
+
+#listeProduits li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#tache {
+    padding: 6px;
+}
+
+button {
+    margin: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.terminee {
+    text-decoration: line-through;
+    color: gray;
+}

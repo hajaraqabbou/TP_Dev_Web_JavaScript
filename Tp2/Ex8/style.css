@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#boite {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 40px auto;
+    cursor: pointer;
+}

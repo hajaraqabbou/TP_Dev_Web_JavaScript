@@ -1,0 +1,19 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.bloc {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid steelblue;
+}

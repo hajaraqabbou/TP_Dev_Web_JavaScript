@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 220px;
+}
+
+#titre {
+    width: 100%;
+    padding: 12px;
+    background-color: #315a86;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+#contenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    background-color: #f1f1f1;
+}
+
+#contenu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+#contenu a:hover {
+    background-color: #ddd;
+}
+
+#contenu.ouvert {
+    max-height: 200px;
+}
